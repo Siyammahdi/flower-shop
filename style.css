@@ -12,6 +12,7 @@
     color: rgba(39, 39, 39, 0.60);
 }
 
+
 /* Header section starts from here */
 
 header{
@@ -20,7 +21,7 @@ header{
 
 .banner{
     display: flex;
-    margin: 0px 170px;
+    margin: 0px 170px 100px 170px;
 }
 .banner-text{
     margin: 120px 150px 100px 0px;
@@ -29,7 +30,6 @@ header{
     font-size: 50px;
     font-weight: 700px;
 }
-
 
 .banner-btn{
     border: none;
@@ -43,8 +43,44 @@ header{
 .banner-img img{
     width: 450px;
     height: 100%;
+    
 }
-/* main body part starts from here */
+
+/* Featured section starts from here */
+
+.featured-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 160px;
+}   
+.featured-img div{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+}
+
+.featured-img div img{
+    height: 300px;
+    width: 220px;
+}
+
+
+.img-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.img-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.img-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* Offer section starts from here */
 
 .offer-section{
     display: flex;
