@@ -157,9 +157,10 @@ header{
     width: 270px;
     border: 3px solid #faa1e449;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgb(150, 150, 150);
+    box-shadow: 7px 7px 10px rgb(165, 165, 165);
     overflow: hidden;
     color: rgba(31, 31, 31, 0.6);
+    
 }
 
 
@@ -169,12 +170,13 @@ header{
     color: rgb(46, 46, 46);
 }
 .showcase button{
-    background-color:#e5547393;
+    background-color: #f7708d;
     border-radius: 15px;
     color: white;
     border: none;
     padding: 0px 10px;
-    
+    font-weight: 800;
+    text-shadow: 1.5px 1.5px 5px black;
 }
 
 /* Instagram section starts from here */
@@ -229,8 +231,8 @@ header{
 /* Footer Section starts from here */
 
 footer{
-    background-color: rgb(41, 41, 41);
-    color: white;
+    background-color: rgb(19, 18, 18);
+    color: rgb(212, 210, 210);
     text-align: center;
     padding: 70px;
 }
@@ -243,5 +245,7 @@ footer p{
 }
 .copy-text{
     color: rgb(122, 122, 122);
-    
+}
+footer h2{
+    font-size: 35px;
 }
