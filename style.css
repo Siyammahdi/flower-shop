@@ -5,6 +5,12 @@
     font-family: 'Lato', sans-serif;
 
 }
+.paragraph-text{
+    font-size: 13px;
+    line-height: 20px;
+    padding: 20px 0px;
+    color: rgba(39, 39, 39, 0.60);
+}
 
 /* Header section starts from here */
 
@@ -23,19 +29,13 @@ header{
     font-size: 50px;
     font-weight: 700px;
 }
-.banner-text p{
-    color: rgba(39, 39, 39, 0.60);
-    padding-top: 15px;
-    font-size: 13px;
-    line-height: 20px;
-}
+
 
 .banner-btn{
     border: none;
     padding: 12px 30px;
     background-color:#E55473;
     border-radius: 6px;
-    margin-top: 30px;
     color: white;
 }
 
@@ -43,4 +43,98 @@ header{
 .banner-img img{
     width: 450px;
     height: 100%;
+}
+/* main body part starts from here */
+
+.offer-section{
+    display: flex;
+    background-color: #E554731A;
+    margin: 100px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+.offer-text{
+    margin-left: 170px;
+    text-align: center;
+
+}
+.offer-img{
+    margin-right: 170px;
+}
+.offer-img img{
+    height: 300px;
+    width: 240px;
+    margin: 50px 0px;
+}
+
+.signup-btn{
+    border: none;
+    padding: 12px 30px;
+    background-color:#E55473;
+    border-radius: 6px;
+    color: white;
+}
+/* Instagram section starts from here */
+
+.insta-heading{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+
+.insta-img{
+    display: flex;
+    justify-content: center;
+}
+.insta-img img{
+    height: 280px;
+    margin: 7px;
+}
+
+/* Subscribe section starts from here */
+
+.subscribe-sec{
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    margin: 100px 170px;
+    text-align: center;
+    height: 315px;
+    background-size: 100%;
+}
+
+.text-box input{
+    width: 450px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+.text-box button{
+    border: none;
+    padding: 12px 30px;
+    background-color:#E55473;
+    border-radius: 6px;
+    color: white;
+}
+
+
+/* Footer Section starts from here */
+
+footer{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+footer p{
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 20px;
+    width: 35%;
+    margin: auto;
+}
+.copy-text{
+    color: rgb(122, 122, 122);
+    
 }
