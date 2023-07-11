@@ -136,12 +136,54 @@ header{
     border-radius: 6px;
     color: white;
 }
+
+/* Product showcase section starts from here */
+
+.showcase-title{
+    text-align: center;
+    margin: 60px 400px;
+}
+
+.showcase{
+    display: flex;
+    justify-content: space-evenly;
+}
+.showcase div{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    text-align: center;
+    height: 320px;
+    width: 270px;
+    border: 3px solid #faa1e449;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(150, 150, 150);
+    overflow: hidden;
+    color: rgba(31, 31, 31, 0.6);
+}
+
+
+.showcase span{
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(46, 46, 46);
+}
+.showcase button{
+    background-color:#e5547393;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 0px 10px;
+    
+}
+
 /* Instagram section starts from here */
 
 .insta-heading{
     text-align: center;
     margin: auto;
     width: 40%;
+    margin-top: 100px;
 }
 
 .insta-img{
